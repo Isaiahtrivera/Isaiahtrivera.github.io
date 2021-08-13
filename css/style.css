@@ -1,17 +1,91 @@
-h1 {
-  text-align: center;
-}
-
-h2 {
-  color:white;
-}
-
-
-header h1 {
-  color: white;
-  font-weight: bold;
+* {
+    box-sizing: border-box;
 }
 
 body {
-  background: url("../Assets/Avengersbackground.jpg");
+    margin: 0;
+    height: 200px;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: image();
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 40px;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #690922;
+    color: black;
+}
+
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.imageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:25px;
+  padding-bottom:25px;
+  background-color: white;
+  width: 98%;
+  border: 1px solid black;
+
+
+}
+
+.imageContent img {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+
+header {
+  padding-top: 20px;
+  margin-left: 200px;
+  padding-left: 20px;
+  padding-right: 20px'
+  margin-bottom: 20px;
+  height: 200px;
+  background-color:rgb(194, 194, 194);
+  position: sticky;
+  top: 0;
+
+}
+
+.headerContainer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
