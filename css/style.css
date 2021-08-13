@@ -2,8 +2,14 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color:white;
+}
+
+
 header h1 {
-  color: maroon;
+  color: white;
+  font-weight: bold;
 }
 
 body {
