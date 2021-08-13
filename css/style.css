@@ -5,3 +5,7 @@ h1 {
 header h1 {
   color: maroon;
 }
+
+body {
+  background-color: grey;
+}
