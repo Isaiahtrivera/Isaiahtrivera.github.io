@@ -83,6 +83,8 @@ header {
 }
 
 .headerContainer {
+  display: block;
+  text-align: center;
   color: white;
   display: flex;
   justify-content: space-between;
