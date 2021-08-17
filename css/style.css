@@ -68,6 +68,7 @@ body {
 
 
 header {
+  display: block;
   padding-top: 20px;
   margin-left: 200px;
   padding-left: 20px;
