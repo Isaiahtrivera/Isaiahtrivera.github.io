@@ -93,25 +93,28 @@ header {
 
 /* porfolio index html css */
 .portfolioh1 {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
 }
 
 .aboutmeh1 {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
 }
 
 .contacth1 {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
 }
 
+.content p {
+  font-size: 30px;
+}
 
 
 /*Footer*/
 footer p {
-  font-size:20px;
+  font-size:15px;
   color: black;
 }
 
