@@ -137,3 +137,7 @@ footer {
 .form {
   text-align: center;
 }
+
+.form input {
+  font-size: 15px;
+}
