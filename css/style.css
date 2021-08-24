@@ -148,3 +148,11 @@ footer {
   font-size: 20px;
   font-style: italic;
 }
+
+section p {
+  text-align: center;
+}
+
+.paragraphContainer {
+  width: : 50%;
+}
