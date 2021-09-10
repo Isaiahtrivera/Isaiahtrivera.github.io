@@ -156,3 +156,9 @@ section p {
 .paragraphContainer {
   width: : 50%;
 }
+
+.portfolioContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
