@@ -204,3 +204,10 @@ section p {
 .mobileContact {
   padding-left: 250px;
 }
+
+button {
+  font-size: 15px;
+  font-style: italic;
+  color: Maroon;
+  padding: 5px;
+}
